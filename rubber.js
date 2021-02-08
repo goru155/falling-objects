@@ -14,7 +14,7 @@ class Rubber {
       var pos =this.body.position;
       push();
       translate(pos.x,pos.y);
-      rectMode(CENTER);
+      ellipseMode(RADIUS);
       strokeWeight(4);
       stroke("red");
       fill("blue");

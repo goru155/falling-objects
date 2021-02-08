@@ -7,13 +7,13 @@ var hammer1,stone1,rubber1;
 var Ground;
 
 function setup(){
-    var canvas = createCanvas(1200,600);
+    var canvas = createCanvas(1000,600);
     engine = Engine.create();
     world = engine.world;
 
-    hammer1=new Hammer(10,100,80,20);
+    hammer1=new Hammer(200,100,80,20);
 
-    rubber1=new Rubber(900,450,70);
+    rubber1=new Rubber(800,100,40);
 
     rubber1.debug=true;
 

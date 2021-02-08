@@ -1,6 +1,6 @@
 class Hammer {constructor(x, y, height,angle) {
     var options = {
-      'restitution':0.8,
+      'restitution':0.5,
       'friction':1,
       'density':1.0
   }
